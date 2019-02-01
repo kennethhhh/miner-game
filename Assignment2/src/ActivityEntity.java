@@ -1,0 +1,60 @@
+public interface ActivityEntity extends Entity{
+    public ActivityAction createActivityAction(WorldModel world,ImageStore imageStore);
+    public void scheduleActions(EventScheduler scheduler, WorldModel world, ImageStore imageStore);
+    public void executeActivityAction(WorldModel world, ImageStore imageStore, EventScheduler scheduler);
+
+}
+
+//    public void scheduleActions(EventScheduler scheduler,
+//                                       WorldModel world, ImageStore imageStore)
+//    {
+//        switch (entity.kind)
+//        {
+//            case MINER_FULL:
+//                this.scheduleEvent(entity,
+//                        entity.createActivityAction(world, imageStore),
+//                        entity.actionPeriod);
+//                this.scheduleEvent(entity, entity.createAnimationAction(0),
+//                        entity.getAnimationPeriod());
+//                break;
+//
+//            case MINER_NOT_FULL:
+//                this.scheduleEvent(entity,
+//                        entity.createActivityAction(world, imageStore),
+//                        entity.actionPeriod);
+//                this.scheduleEvent(entity,
+//                        entity.createAnimationAction(0), entity.getAnimationPeriod());
+//                break;
+//
+//            case ORE:
+//                scheduleEvent(entity,
+//                        entity.createActivityAction(world, imageStore),
+//                        entity.actionPeriod);
+//                break;
+//
+//            case ORE_BLOB:
+//                scheduleEvent(entity,
+//                        entity.createActivityAction(world, imageStore),
+//                        entity.actionPeriod);
+//                scheduleEvent(entity,
+//                        entity.createAnimationAction(0), entity.getAnimationPeriod());
+//                break;
+//
+//            case QUAKE:
+//                scheduleEvent(entity,
+//                        entity.createActivityAction(world, imageStore),
+//                        entity.actionPeriod);
+//                scheduleEvent(entity,
+//                        entity.createAnimationAction(QUAKE_ANIMATION_REPEAT_COUNT),
+//                        entity.getAnimationPeriod());
+//                break;
+//
+//            case VEIN:
+//                scheduleEvent(entity,
+//                        entity.createActivityAction(world, imageStore),
+//                        entity.actionPeriod);
+//                break;
+//
+//            default:
+//        }
+//    }
