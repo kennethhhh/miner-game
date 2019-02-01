@@ -1,0 +1,26 @@
+Why I left these these methods in the functions class?
+1. processLine()
+
+This method simply goes through a string, separates them, and based on that, it does something. It doesn't really relate to the game
+objects. I believe this function has to do with gaia.sav
+
+2. parseBackground(), parseMiner(), parseObstacle(), etc.
+
+These methods make sure that the length of the list of strings matches the corresponding property attribute. For example for 
+parseBackground(), it checks to make sure that the input list length with BGND_NUM_PROPERTIES (4). If it does, the method does something
+returns true or false. These methods don't have much to do with the game objects, but more with the given file.
+
+3. createBlacksmith(), createMinerFull(), createMinerNotFull(), etc.
+
+I left these methods in the functions class because it would be weird to have an object creating itself. It is possible to move each
+create method into its corresponding class. Below is a comparison of leaving it in functions and moving it into its corresponding class.
+
+
+CORRESPONDING CLASS
+MinerFull m = new MinerFull()
+m.createMinerFull
+
+VS
+
+LEAVING IT IN FUNCTIONS CLASS
+MinerFull m = functions.createMinerFull()
