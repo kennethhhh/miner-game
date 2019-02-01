@@ -1,0 +1,24 @@
+1. 
+The first click will spawn a building (which is a background so entities can walk over the building) and a new entity at the door of 
+the building (the new entity is called Sakura). Every click after the first click will create a black hole background(1x1).
+
+
+2. 
+Building: Any miners/oreblobs will turn into Sakuras if they are within 5 tiles of the click (in other words,11x11 where the middle of 
+the 11x11 is the mouse click). Every 5 seconds after the intial click, the door of the building will spawn a new Sakura. 
+
+Blackhole: The blackhole removes the entity at the mouse click (if no entity, just changes the background to a blackhole) and 3 seconds 
+after will change the blackhole into grass. If the user clicks the cell that spawns Sakura, the building will stop spawning Sakura.
+
+
+3.
+Sakura: Sakura will look for oreblobs and veins and destroy them.
+
+
+4.
+The new entities include Sakura and Sasuke. Sakura's behavior and how she is spawns is described above. When miners get 2 ores and turn it
+in to a blacksmith, they turn into Sasuke. Sasuke looks for Sakura and kills her. If Sakura is not present, Sasuke will target oreblobs.
+
+
+EXTRA: 
+After the first click, a song will play in the background.

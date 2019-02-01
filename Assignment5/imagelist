@@ -1,0 +1,54 @@
+blacksmith images/blacksmith.bmp
+blob images/blob1.bmp 255 255 255 0
+blob images/blob2.bmp 255 255 255 0
+blob images/blob3.bmp 255 255 255 0
+blob images/blob4.bmp 255 255 255 0
+blob images/blob5.bmp 255 255 255 0
+blob images/blob6.bmp 255 255 255 0
+blob images/blob7.bmp 255 255 255 0
+blob images/blob8.bmp 255 255 255 0
+blob images/blob9.bmp 255 255 255 0
+blob images/blob10.bmp 255 255 255 0
+blob images/blob11.bmp 255 255 255 0
+blob images/blob12.bmp 255 255 255 0
+grass images/grass.bmp
+miner images/miner1.bmp 252 252 252 0
+miner images/miner2.bmp 252 252 252 0
+miner images/miner3.bmp 252 252 252 0
+miner images/miner4.bmp 252 252 252 0
+miner images/miner5.bmp 252 252 252 0
+obstacle images/obstacle.bmp
+ore images/ore.bmp 201 26 26 0
+quake images/quake1.bmp 255 255 255 0
+quake images/quake2.bmp 255 255 255 0
+quake images/quake3.bmp 255 255 255 0
+quake images/quake4.bmp 255 255 255 0
+quake images/quake5.bmp 255 255 255 0
+quake images/quake6.bmp 255 255 255 0
+rocks images/rock.bmp
+vein images/vein.bmp
+background_default images/none.bmp
+hokage0 images/hokage0.png
+blackhole0 images/blackhole0.png
+hokage1 images/hokage1.png
+hokage2 images/hokage2.png
+hokage3 images/hokage3.png
+hokage4 images/hokage4.png
+hokage5 images/hokage5.png
+hokage6 images/hokage6.png
+hokage7 images/hokage7.png
+hokage8 images/hokage8.png
+sakura images/sakura1.png
+sakura images/sakura2.png
+sakura images/sakura3.png
+sakura images/sakura4.png
+sakura images/sakura5.png
+sakura images/sakura6.png
+sasuke images/sasuke1.png
+sasuke images/sasuke2.png
+sasuke images/sasuke3.png
+chidori images/destroy_0.png
+chidori images/destroy_1.png
+chidori images/destroy_2.png
+chidori images/destroy_3.png
+chidori images/destroy_4.png
